@@ -12,7 +12,7 @@ func main() {
 
 	// run server
 	log.Printf("Server Running on Port 8080\n")
-	err := http.ListenAndServe(":8080", nil)
+	err := http.ListenAndServe(":80", nil)
 	if err != nil {
 		log.Println(err.Error())
 	}
