@@ -1,1 +1,1 @@
-web: bin/levxa
+web: levxa
